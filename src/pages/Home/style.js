@@ -25,13 +25,18 @@ export const styleSheet = {
     },
 
     card:{
-        alignItems:'center',
+        alignItems:'_top:15vh',
         justifyContent:'center',
-        border:'1px solid black',
         display: 'flex',
         flexWrap: 'wrap',
         flexDirection: 'row',
         height: '90vh',
         width: '33.33vw'
+    },
+
+    iconContent:{
+        alignItems:'center',
+        justifyContent:'center',
+        display: 'flex',
     }
 }
