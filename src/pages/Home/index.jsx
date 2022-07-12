@@ -2,7 +2,6 @@ import {Component} from "react";
 import {withStyles} from "@mui/styles";
 import {styleSheet} from "./style";
 import {Card, CardHeader, CardMedia, Grid, Tabs} from "@mui/material";
-import download from "../../assets/images/download.png"
 import SvgIcon, { SvgIconProps } from '@mui/material/SvgIcon';
 
 function HomeIcon(props: SvgIconProps) {
@@ -44,12 +43,9 @@ class Home extends Component {
                         <div className={classes.card}>
                             <Grid item lg={12} md={6} sm={6} xm={6}>
                                 <Card sx={{maxWidth: 345}}>
-                                    <CardMedia
-                                        component="img"
-                                        height="100"
-                                        image={download}
-                                        alt="ijse"
-                                    />
+                                    <div className={classes.iconContent}>
+                                        <HomeIcon sx={{ fontSize: 60, color: "blue" }} />
+                                    </div>
                                     <CardHeader
                                         title="Items"
                                         subheader="All Items are here"
@@ -60,12 +56,9 @@ class Home extends Component {
                         <div className={classes.card}>
                             <Grid item lg={12} md={6} sm={6} xm={6}>
                                 <Card sx={{maxWidth: 345}}>
-                                    <CardMedia
-                                        component="img"
-                                        height="100"
-                                        image={download}
-                                        alt="ijse"
-                                    />
+                                    <div className={classes.iconContent}>
+                                        <HomeIcon sx={{ fontSize: 60, color: "blue" }} />
+                                    </div>
                                     <CardHeader
                                         title="Orders"
                                         subheader="All Orders are here"
