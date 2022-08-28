@@ -8,7 +8,7 @@ export const styleSheet = {
 
     },
     navBar:{
-        backgroundColor: 'yellow',
+        // backgroundColor: 'yellow',
         display: 'flex',
         flexWrap: 'wrap',
         flexDirection: 'column',
@@ -31,12 +31,17 @@ export const styleSheet = {
         flexWrap: 'wrap',
         flexDirection: 'row',
         height: '90vh',
-        width: '33.33vw'
+        width: '33.33vw',
+
     },
 
     iconContent:{
         alignItems:'center',
         justifyContent:'center',
         display: 'flex',
+    },
+
+    imageContent:{
+
     }
 }
